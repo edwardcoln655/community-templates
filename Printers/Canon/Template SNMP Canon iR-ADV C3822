@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>6.4</version>
+    <templates>
+        <template>
+            <uuid>550e8400e29b41d4a716446655440000</uuid>
+            <template>Template SNMP Canon iR-ADV C3822</template>
+            <name>Template SNMP Canon iR-ADV C3822</name>
+            <groups>
+                <group>
+                    <name>Templates</name>
+                </group>
+            </groups>
+            <items>
+                <item>
+                    <uuid>550e8400e29b41d4a716446655440001</uuid>
+                    <name>Page Counter (Total)</name>
+                    <type>SNMP_AGENT</type>
+                    <snmp_oid>.1.3.6.1.2.1.43.10.2.1.4.1.1</snmp_oid>
+                    <key>page.count.total</key>
+                    <delay>60s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <units>pages</units>
+                </item>
+                <item>
+                    <uuid>550e8400e29b41d4a716446655440002</uuid>
+                    <name>Black Toner Level</name>
+                    <type>SNMP_AGENT</type>
+                    <snmp_oid>.1.3.6.1.2.1.43.11.1.1.9.1.1</snmp_oid>
+                    <key>toner.black.level</key>
+                    <delay>300s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <units>%</units>
+                </item>
+                <item>
+                    <uuid>550e8400e29b41d4a716446655440003</uuid>
+                    <name>Cyan Toner Level</name>
+                    <type>SNMP_AGENT</type>
+                    <snmp_oid>.1.3.6.1.2.1.43.11.1.1.9.1.2</snmp_oid>
+                    <key>toner.cyan.level</key>
+                    <delay>300s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <units>%</units>
+                </item>
+                <item>
+                    <uuid>550e8400e29b41d4a716446655440004</uuid>
+                    <name>Magenta Toner Level</name>
+                    <type>SNMP_AGENT</type>
+                    <snmp_oid>.1.3.6.1.2.1.43.11.1.1.9.1.3</snmp_oid>
+                    <key>toner.magenta.level</key>
+                    <delay>300s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <units>%</units>
+                </item>
+                <item>
+                    <uuid>550e8400e29b41d4a716446655440005</uuid>
+                    <name>Yellow Toner Level</name>
+                    <type>SNMP_AGENT</type>
+                    <snmp_oid>.1.3.6.1.2.1.43.11.1.1.9.1.4</snmp_oid>
+                    <key>toner.yellow.level</key>
+                    <delay>300s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <units>%</units>
+                </item>
+                <item>
+                    <uuid>550e8400e29b41d4a716446655440006</uuid>
+                    <name>Printer Status</name>
+                    <type>SNMP_AGENT</type>
+                    <snmp_oid>.1.3.6.1.2.1.25.3.5.1.1.1</snmp_oid>
+                    <key>printer.status</key>
+                    <delay>60s</delay>
+                    <history>90d</history>
+                    <trends>0</trends>
+                </item>
+            </items>
+        </template>
+    </templates>
+</zabbix_export>
